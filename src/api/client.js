@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://mern-end-term.onrender.com/api',
+  baseURL: 'https://test-mern-backend.onrender.com/api',
   withCredentials: true,
   headers: {
     'Content-Type': 'application/json'
