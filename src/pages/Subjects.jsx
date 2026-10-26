@@ -79,7 +79,7 @@ const Subjects = () => {
 
   const handleDeleteSubject = async (subId, e) => {
     e.stopPropagation();
-    if (!window.confirm('Are you sure you want to delete this subject? All associated topics will remain accessible or archived.')) {
+    if (!window.confirm('Are you sure you want to delete this subject? All associated topics, exams, and study records will also be permanently deleted.')) {
       return;
     }
     try {
